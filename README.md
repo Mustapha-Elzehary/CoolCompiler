@@ -39,7 +39,7 @@ There are two tests
   ```
   
   JVM will throw exeption to output console 
-  []()
+  ![exeption](https://i.ibb.co/7KH1tTB/image.png)
   
     
 
