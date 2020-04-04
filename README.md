@@ -1,10 +1,10 @@
 # CoolCompiler
 THis repository is for 4th grade CE shoubra compiler  project
 
-# COOL Compiler
 
 # Cool syntax
-      ![cool syntax](https://i.ibb.co/BggL1Dh/image.png)
+      Cool syntax image
+     ![](https://i.ibb.co/BggL1Dh/image.png)
      
 # Tools needed
   1. JAVA IDE (neatbeans, eclipse or intillIJ)
