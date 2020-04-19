@@ -14,10 +14,13 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/CoolCompiler" />
+  </component>
   <component name="ProjectId" id="1a1mm8ME39nWSQMWSp57d80R5wi" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -25,17 +28,34 @@
     <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
     <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
     <property name="GenerateAntBuildDialog.outputFileNameProperty" value="intellij_antlr1" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="D:/Banha/collage 5/2nd/compiler/sec/antlr-4.7.1-complete.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Banha/collage 5/2nd/compiler/sec/antlr-4.7.1-complete.jar!/" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
   </component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Intellij_ANTLR1\output" />
+      <recent name="D:\Intellij_ANTLR1\testCses" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="Intellij_ANTLR1" />
+      <module name="comiler_project" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main" />
+      <module name="comiler_project" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -43,6 +63,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.main" />
       </list>
     </recent_temporary>
   </component>
@@ -63,49 +84,67 @@
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.g4" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="361" y="71" key="#Project_Structure" timestamp="1585961961173">
+    <state x="505" y="0" key="#Project_Structure" timestamp="1587252815403">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="404" y="0" key="#Project_Structure/0.0.1536.826@0.0.1536.826" timestamp="1587239827455" />
+    <state x="505" y="0" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1587252815403" />
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587220322930">
       <screen x="0" y="0" width="1536" height="826" />
     </state>
-    <state x="361" y="71" key="#Project_Structure/0.0.1536.826@0.0.1536.826" timestamp="1585961961173" />
-    <state x="532" y="215" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1585965674901">
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.826@0.0.1536.826" timestamp="1587220322930" />
+    <state x="532" y="215" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1587246127115">
       <screen x="0" y="0" width="1536" height="826" />
     </state>
-    <state x="532" y="215" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.826@0.0.1536.826" timestamp="1585965674901" />
-    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1585970612422">
+    <state x="532" y="215" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.826@0.0.1536.826" timestamp="1587246127115" />
+    <state x="551" y="277" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1587230697964">
       <screen x="0" y="0" width="1536" height="826" />
     </state>
-    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.826@0.0.1536.826" timestamp="1585970612422" />
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1585912189256">
+    <state x="551" y="277" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.826@0.0.1536.826" timestamp="1587230697964" />
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1587248938755">
       <screen x="0" y="0" width="1536" height="826" />
     </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.826@0.0.1536.826" timestamp="1585912189256" />
-    <state width="1492" height="206" key="GridCell.Tab.0.bottom" timestamp="1585976768605">
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.826@0.0.1536.826" timestamp="1587248938755" />
+    <state x="526" y="147" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1587217822599">
       <screen x="0" y="0" width="1536" height="826" />
     </state>
-    <state width="1492" height="206" key="GridCell.Tab.0.bottom/0.0.1536.826@0.0.1536.826" timestamp="1585976768605" />
-    <state width="1492" height="206" key="GridCell.Tab.0.center" timestamp="1585976768605">
+    <state x="526" y="147" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1536.826@0.0.1536.826" timestamp="1587217822599" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1587228649231">
       <screen x="0" y="0" width="1536" height="826" />
     </state>
-    <state width="1492" height="206" key="GridCell.Tab.0.center/0.0.1536.826@0.0.1536.826" timestamp="1585976768605" />
-    <state width="1492" height="206" key="GridCell.Tab.0.left" timestamp="1585976768605">
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.826@0.0.1536.826" timestamp="1587228649231" />
+    <state width="1492" height="206" key="GridCell.Tab.0.bottom" timestamp="1587251825002">
       <screen x="0" y="0" width="1536" height="826" />
     </state>
-    <state width="1492" height="206" key="GridCell.Tab.0.left/0.0.1536.826@0.0.1536.826" timestamp="1585976768605" />
-    <state width="1492" height="206" key="GridCell.Tab.0.right" timestamp="1585976768605">
+    <state width="1492" height="206" key="GridCell.Tab.0.bottom/0.0.1536.826@0.0.1536.826" timestamp="1587251825002" />
+    <state width="1492" height="206" key="GridCell.Tab.0.center" timestamp="1587251825001">
       <screen x="0" y="0" width="1536" height="826" />
     </state>
-    <state width="1492" height="206" key="GridCell.Tab.0.right/0.0.1536.826@0.0.1536.826" timestamp="1585976768605" />
-    <state x="277" y="44" key="SettingsEditor" timestamp="1585961221945">
+    <state width="1492" height="206" key="GridCell.Tab.0.center/0.0.1536.826@0.0.1536.826" timestamp="1587251825001" />
+    <state width="1492" height="206" key="GridCell.Tab.0.left" timestamp="1587251825001">
       <screen x="0" y="0" width="1536" height="826" />
     </state>
-    <state x="277" y="44" key="SettingsEditor/0.0.1536.826@0.0.1536.826" timestamp="1585961221945" />
-    <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1585961252308">
+    <state width="1492" height="206" key="GridCell.Tab.0.left/0.0.1536.826@0.0.1536.826" timestamp="1587251825001" />
+    <state width="1492" height="206" key="GridCell.Tab.0.right" timestamp="1587251825001">
       <screen x="0" y="0" width="1536" height="826" />
     </state>
-    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.826@0.0.1536.826" timestamp="1585961252308" />
-    <state x="425" y="182" key="run.anything.popup" timestamp="1585965524061">
+    <state width="1492" height="206" key="GridCell.Tab.0.right/0.0.1536.826@0.0.1536.826" timestamp="1587251825001" />
+    <state x="277" y="44" key="SettingsEditor" timestamp="1587221762490">
       <screen x="0" y="0" width="1536" height="826" />
     </state>
-    <state x="425" y="182" key="run.anything.popup/0.0.1536.826@0.0.1536.826" timestamp="1585965524061" />
+    <state x="277" y="44" key="SettingsEditor/0.0.1536.826@0.0.1536.826" timestamp="1587221762490" />
+    <state x="581" y="297" key="com.intellij.ide.util.TipDialog" timestamp="1587252573743">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.826@0.0.1536.826" timestamp="1587176800860" />
+    <state x="581" y="297" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1587252573743" />
+    <state x="425" y="182" key="run.anything.popup" timestamp="1587245821286">
+      <screen x="0" y="0" width="1536" height="826" />
+    </state>
+    <state x="425" y="182" key="run.anything.popup/0.0.1536.826@0.0.1536.826" timestamp="1587245821286" />
+    <state x="431" y="147" width="672" height="678" key="search.everywhere.popup" timestamp="1587247913575">
+      <screen x="0" y="0" width="1536" height="826" />
+    </state>
+    <state x="431" y="147" width="672" height="678" key="search.everywhere.popup/0.0.1536.826@0.0.1536.826" timestamp="1587247913575" />
   </component>
 </project>

@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Intellij_ANTLR1.iml" filepath="$PROJECT_DIR$/Intellij_ANTLR1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/comiler_project.iml" filepath="$PROJECT_DIR$/comiler_project.iml" />
     </modules>
   </component>
 </project>
