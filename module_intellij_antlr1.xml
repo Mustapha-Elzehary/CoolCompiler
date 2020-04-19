@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="module_intellij_antlr1" default="compile.module.intellij_antlr1">
+  <dirname property="module.intellij_antlr1.basedir" file="${ant.file.module_intellij_antlr1}"/>
+  
+  <property name="module.jdk.home.intellij_antlr1" value="${project.jdk.home}"/>
+  <property name="module.jdk.bin.intellij_antlr1" value="${project.jdk.bin}"/>
+  <property name="module.jdk.classpath.intellij_antlr1" value="${project.jdk.classpath}"/>
+  
+  <property name="compiler.args.intellij_antlr1" value="-encoding UTF-8 -source 12 -target 12 ${compiler.args}"/>
+  
+  <property name="intellij_antlr1.output.dir" value="${module.intellij_antlr1.basedir}/out/production/Intellij_ANTLR1"/>
+  <property name="intellij_antlr1.testoutput.dir" value="${module.intellij_antlr1.basedir}/out/test/Intellij_ANTLR1"/>
+  
+  <path id="intellij_antlr1.module.bootclasspath">
+    <!-- Paths to be included in compilation bootclasspath -->
+  </path>
+  
+  <path id="intellij_antlr1.module.production.classpath">
+    <path refid="${module.jdk.classpath.intellij_antlr1}"/>
+    <pathelement location="D:/Banha/collage 5/2nd/compiler/sec/antlr-4.7.1-complete.jar"/>
+  </path>
+  
+  <path id="intellij_antlr1.runtime.production.module.classpath">
+    <pathelement location="${intellij_antlr1.output.dir}"/>
+    <pathelement location="D:/Banha/collage 5/2nd/compiler/sec/antlr-4.7.1-complete.jar"/>
+  </path>
+  
+  <path id="intellij_antlr1.module.classpath">
+    <path refid="${module.jdk.classpath.intellij_antlr1}"/>
+    <pathelement location="${intellij_antlr1.output.dir}"/>
+    <pathelement location="D:/Banha/collage 5/2nd/compiler/sec/antlr-4.7.1-complete.jar"/>
+  </path>
+  
+  <path id="intellij_antlr1.runtime.module.classpath">
+    <pathelement location="${intellij_antlr1.testoutput.dir}"/>
+    <pathelement location="${intellij_antlr1.output.dir}"/>
+    <pathelement location="D:/Banha/collage 5/2nd/compiler/sec/antlr-4.7.1-complete.jar"/>
+  </path>
+  
+  
+  <patternset id="excluded.from.module.intellij_antlr1">
+    <patternset refid="ignored.files"/>
+  </patternset>
+  
+  <patternset id="excluded.from.compilation.intellij_antlr1">
+    <patternset refid="excluded.from.module.intellij_antlr1"/>
+  </patternset>
+  
+  <path id="intellij_antlr1.module.sourcepath">
+    <dirset dir="${module.intellij_antlr1.basedir}">
+      <include name="src"/>
+    </dirset>
+  </path>
+  
+  
+  <target name="compile.module.intellij_antlr1" depends="compile.module.intellij_antlr1.production,compile.module.intellij_antlr1.tests" description="Compile module Intellij_ANTLR1"/>
+  
+  <target name="compile.module.intellij_antlr1.production" depends="register.custom.compilers" description="Compile module Intellij_ANTLR1; production classes">
+    <mkdir dir="${intellij_antlr1.output.dir}"/>
+    <javac2 destdir="${intellij_antlr1.output.dir}" debug="${compiler.debug}" nowarn="${compiler.generate.no.warnings}" memorymaximumsize="${compiler.max.memory}" fork="true" executable="${module.jdk.bin.intellij_antlr1}/javac">
+      <compilerarg line="${compiler.args.intellij_antlr1}"/>
+      <bootclasspath refid="intellij_antlr1.module.bootclasspath"/>
+      <classpath refid="intellij_antlr1.module.production.classpath"/>
+      <src refid="intellij_antlr1.module.sourcepath"/>
+      <patternset refid="excluded.from.compilation.intellij_antlr1"/>
+    </javac2>
+    
+    <copy todir="${intellij_antlr1.output.dir}">
+      <fileset dir="${module.intellij_antlr1.basedir}/src">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+    </copy>
+  </target>
+  
+  <target name="compile.module.intellij_antlr1.tests" depends="register.custom.compilers,compile.module.intellij_antlr1.production" description="compile module Intellij_ANTLR1; test classes" unless="skip.tests"/>
+  
+  <target name="clean.module.intellij_antlr1" description="cleanup module">
+    <delete dir="${intellij_antlr1.output.dir}"/>
+    <delete dir="${intellij_antlr1.testoutput.dir}"/>
+  </target>
+</project>
